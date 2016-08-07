@@ -44,10 +44,15 @@ body{
   padding-bottom: 5%;
   }
 
-#footer{
-  font-size: 1em;
-  padding-top: 5%;
-  padding-bottom: 5%;
+#foot{
+  background-color:#BCBCBC;
+  width:100%;
+  font-family: 'Coda', cursive;
+  font-size: 2em;
+  text-align:center;
+  color:#CAFF42;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 img{
