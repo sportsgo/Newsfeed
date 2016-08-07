@@ -1,0 +1,127 @@
+/* -------------------------- MEDIA SIZE SELECTOR ---------------------------- */
+@media (max-width:599px){
+  body{
+    font-size:0.65em;
+    }
+
+  #header{
+    font-size:5em;
+    }
+  }
+
+@media (min-width:600px){
+  #articles{
+    margin-left:2.5%;
+    margin-right:2.5%;
+    }
+
+  #header{
+    font-size:10em;
+    }
+  }
+
+/* ------------------------------ REMAINING ADJUSTMENTS ------------------------ */
+body{
+  margin:0;
+  color:#424242;
+  font-family:'Slabo 27px', serif;
+  }
+
+#social{
+  font-family:'Josefin Slab',serif;
+  font-size: 2.5em;
+  text-align: right;
+  margin-right: 1%;
+  margin-top: 1%;
+  }
+
+#header{
+  background-color:#BCBCBC;
+  width:100%;
+  /* 1) Change out cursive for something else*/
+  font-family: 'Coda', cursive;
+  text-align:center;
+  color:#CAFF42;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  }
+
+img{
+  max-width:100%;
+  }
+
+.outline{
+  border-width: 1px;
+  border-color: #BCBCBC;
+  border-style: solid;
+  }
+
+.title{
+  font-family:'Josefin Slab',serif;
+  font-size: 3.5em;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  color:#3299BB;
+  }
+
+a{
+  color:#FF9900;
+  }
+
+.h2{color:#3299BB}
+
+.text{
+  font-size: 2.5em;
+  color: #424242;
+  }
+
+hr{
+  color:#424242;
+  }
+
+/* ------------------------------------- FONTS ---------------------------------- */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coda'), local('Coda-Regular'), url(https://fonts.gstatic.com/s/coda/v11/MsyPv5UTc2VukMMM7yvUbQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coda'), local('Coda-Regular'), url(https://fonts.gstatic.com/s/coda/v11/_xmjOXyFZCVnKmbBxb_PUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Slab'), local('JosefinSlab'), url(https://fonts.gstatic.com/s/josefinslab/v6/46aYWdgz-1oFX11flmyEfegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Slabo 27px';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Slabo 27px'), local('Slabo27px-Regular'), url(https://fonts.gstatic.com/s/slabo27px/v3/LfR9_S_HMdQ73mwIHBRxoSEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Slabo 27px';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Slabo 27px'), local('Slabo27px-Regular'), url(https://fonts.gstatic.com/s/slabo27px/v3/PuwvqkdbcqU-fCZ9Ed-b7fk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
