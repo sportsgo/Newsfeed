@@ -38,6 +38,7 @@ body{
   width:100%;
   /* 1) Change out cursive for something else*/
   font-family: 'Coda', cursive;
+  font-weight: 700;
   text-align:center;
   color:#CAFF42;
   padding-top: 5%;
@@ -49,6 +50,7 @@ body{
   width:100%;
   font-family: 'Coda', cursive;
   font-size: 2em;
+  font-weight: 700;
   text-align:center;
   color:#CAFF42;
   padding-top: 2%;
