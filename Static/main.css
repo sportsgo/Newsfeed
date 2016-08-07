@@ -12,9 +12,6 @@
     }
   }
 
-overflow-y: scroll; /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
-
 @media (min-width:600px){
   #articles{
     margin-left:2.5%;
