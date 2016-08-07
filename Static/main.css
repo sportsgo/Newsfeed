@@ -4,12 +4,16 @@
     font-size:0.65em;
     width: 100%;
     margin-bottom: 15px;
+    overflow-y: scroll; /* has to be scroll, not auto */
     -webkit-overflow-scrolling: touch;
     }
   #header{
     font-size:5em;
     }
   }
+
+overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 
 @media (min-width:600px){
   #articles{
