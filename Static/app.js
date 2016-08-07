@@ -3,7 +3,6 @@ var main = function(){
 	// Parse JSON Data
 	var articles = $.getJSON( "https://raw.githubusercontent.com/sportsgo/sportsgo.github.io/master/js/data.json",
 		function(data) {
-        	console.log(data)
         	for(object in data){
         		var obj = data[object]
         		console.log( obj )
